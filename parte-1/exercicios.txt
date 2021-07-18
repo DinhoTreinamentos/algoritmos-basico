@@ -1,0 +1,47 @@
+Faça um programa que receba um valor que é o valor pago, um segundo valor que é o preço do produto e retorne o troco a ser dado.
+
+Faça um programa que receba o valor do quilo de um produto e a quantidade de quilos do produto consumida calculando o valor final a ser pago.
+
+Faça um programa que receba 2 valores e retorne o maior entre eles.
+
+Faça um programa que receba 4 valores e retorne o menor entre eles.
+
+Faça um programa que verifique se um número é impar.
+
+Faça um programa que receba 3 valores que representarão os lados de um triângulo e verifique se os valores formam um triângulo e classifique esse triângulo como:
+
+eqüilátero (3 lados iguais);
+isósceles (2 lados iguais);
+escaleno (3 lados diferentes).
+Lembre-se que para formar um triângulo:
+
+nenhum dos lados pode ser igual a zero;
+um lado não pode ser maior do que a soma dos outros dois;
+7, Utilize a estrutura if para fazer um programa que retorne o nome de um produto a partir do código do mesmo. Considere os seguintes códigos:
+
+001  Parafuso; 
+002  Porca; 
+003  Prego; 
+Para qualquer outro código indicar ?Diversos?. 
+Refaça o exercício anterior usando a estrutura switch.
+
+Faça um programa que utilize a estrutura while para ler 50 números e calcule e exiba a média aritmética deles.
+
+Refaça o programa anterior utilizando a estrutura do while.
+
+Refaça novamente o exercício usando a estrutura for.
+
+Escrever um programa para calcular a média obtida por cada aluno de uma turma. Deve-se informar o número de alunos da turma, o nome de cada um e as 3 notas realizadas. Escrever o nome do aluno e a média obtida.
+
+Escrever um programa que, dada uma seqüência de valores inteiros e positivos, determine qual e o menor valor desta sequência e a média aritmética dos valores pares. O valor 0 (zero) indica o término dos dados de entrada (finalizador).
+
+Escrever um programa que leia o nome, sexo, altura e peso de um grupo de 250 pessoas e informe:
+
+média das alturas dos homens e dos pesos das mulheres;
+nome do homem mais alto e da mulher mais gorda;
+Escrever um programa que lê 5 valores para a, um de cada vez, e conta quantos destes valores são negativos, escrevendo esta informação.
+Escrever um programa que gera e escreve os números ímpares, pares e múltiplos de 11 entre 100 e 200.
+Escrever um programa que lê 10 valores, um de cada vez, e conta quantos deles estão no intervalo [10,20] e quantos deles estão fora deste intervalo, escrevendo estas informações.
+Escrever um programa que lê um número desconhecido de valores, um de cada vez, e conta quantos deles estão em cada um dos intervalos [0,25], (25,50], (50,75], (75,100].
+Escrever um programa semelhante ao anterior que calcula as médias aritméticas de cada intervalo e as escreve, juntamente com o número de valores de cada intervalo.
+Escrever um programa que lê um par de valores m,n , todos inteiros e positivos, um par de cada vez, e calcula e escreve a soma dos n inteiros consecutivos a partir de m inclusive
