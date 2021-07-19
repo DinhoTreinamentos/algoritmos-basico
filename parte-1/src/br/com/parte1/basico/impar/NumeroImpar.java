@@ -14,7 +14,7 @@ public class NumeroImpar {
 		
 		
 		if(num % 2 == 0) {
-			System.out.println("O número digitado ñ ímpar.");
+			System.out.println("O número digitado não ímpar.");
 		}else {
 			System.out.println("O número digitado é impar.");
 		}
