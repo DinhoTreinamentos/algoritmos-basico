@@ -9,7 +9,6 @@ public class Principal {
 		// e retorne o troco a ser dado.
 		
 		double pago, preco, troco;
-		//pago = preco = troco = 0;
 		
 		Scanner in = new Scanner(System.in);
 		
@@ -24,5 +23,4 @@ public class Principal {
 		System.out.print("Troco R$ " + troco);
 		
 	}
-
 }
