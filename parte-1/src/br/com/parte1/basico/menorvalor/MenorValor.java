@@ -21,15 +21,20 @@ public class MenorValor {
 		System.out.print("Digite o 4º valor: ");
 		num4 =in.nextInt();
 		
-		if(num1 < num2 && num1 < num3 && num1 < num4) {
-			System.out.println("\nO menor valor digitado foi " + num1);
-		}else if(num2 < num1 && num2 < num3 && num2 < num4) {
-			System.out.println("\nO menor valor digitado foi " + num2);
-		}else if(num3 < num1 && num3 < num2 && num3 < num4) {
-			System.out.println("\nO menor valor digitado foi " + num3);
-		}else{
-			System.out.println("\nO menor valor digitado foi " + num4);
-		}
+		//if(num1 < num2 && num1 < num3 && num1 < num4) {
+		//	System.out.println("\nO menor valor digitado foi " + num1);
+		//}else if(num2 < num1 && num2 < num3 && num2 < num4) {
+		//	System.out.println("\nO menor valor digitado foi " + num2);
+		//}else if(num3 < num1 && num3 < num2 && num3 < num4) {
+		//	System.out.println("\nO menor valor digitado foi " + num3);
+		//}else{
+		//	System.out.println("\nO menor valor digitado foi " + num4);
+		//}
+		
+		String j = (num1 < num2 && num1 < num3 && num1 < num4) ? "\nO menor valor digitado foi " + num1:
+			(num2 < num1 && num2 < num3 && num2 < num4) ? "\nO menor valor digitado foi " + num2:
+				(num3 < num1 && num3 < num2 && num3 < num4) ? "\nO menor valor digitado foi " + num3:
+					"\nO menor valor digitado foi " + num4;
+		System.out.println(j);
 	}
-
 }
