@@ -43,7 +43,8 @@ public class Triangulo {
 		}while(c == 0);			
 		
 		if(a > b + c || b > a + c || c > a + b) {
-			System.out.println("\nNÃO FOI POSSÍVEL FORMAR UM TRIÂNGULO!\nUM LADO NÃO PODE SER MAIOR DO QUE A SOMA DOS OUTROS DOIS LADOS!!!");
+			System.out.println("\nNÃO FOI POSSÍVEL FORMAR UM TRIÂNGULO!"
+					+ "\nUM LADO NÃO PODE SER MAIOR DO QUE A SOMA DOS OUTROS DOIS LADOS!!!");
 		}else if(a == b && b == c) {
 			System.out.println("\nTRIÂNGULO EQUILÁTERO");
 		}else if(a == b && b != c) {
