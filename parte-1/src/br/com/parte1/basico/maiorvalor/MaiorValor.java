@@ -15,12 +15,14 @@ public class MaiorValor {
 		System.out.print("Digite o segundo valor: ");
 		num2 = in.nextInt();
 		
-		if(num1 > num2) {
-			System.out.println("\nO maior valor digitado foi " + num1);
-		}else {
-			System.out.println("O maior valor digitado foi " + num2);
-		}
-
+		//if(num1 > num2) {
+			//System.out.println("\nO maior valor digitado foi " + num1);
+		//}else {
+			//System.out.println("O maior valor digitado foi " + num2);
+		//}
+		
+		String j = (num1 > num2) ? "\nO maior número digitado foi " + num1 : "\nO maior valor digitado foi " + num2; 
+		System.out.println(j);
 	}
 
 }
