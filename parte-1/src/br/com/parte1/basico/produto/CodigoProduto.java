@@ -13,6 +13,7 @@ public class CodigoProduto {
 		// 003  Prego; 
 		// Para qualquer outro código indicar ?Diversos?. 
 		// Refaça o exercício anterior usando a estrutura switch.
+		
 		int codigo;
 		Scanner in = new Scanner(System.in);
 		
@@ -29,23 +30,22 @@ public class CodigoProduto {
 		//	System.out.println("Diversos");
 		//}	
 		
-		switch(codigo) { 
-			case 001 : 
-				System.out.println("Parafuso");
-				break;
-			case 002 : 
-				System.out.println("Porca");
-				break;
-			case 003 : 
-				System.out.println("Prego");
-				break;
-			default  : 
-				System.out.println("Diversos");
-		}
+		//switch(codigo) { 
+		//	case 001 : 
+		//		System.out.println("Parafuso");
+		//		break;
+		//	case 002 : 
+		//		System.out.println("Porca");
+		//		break;
+		//	case 003 : 
+		//		System.out.println("Prego");
+		//		break;
+		//	default  : 
+		//		System.out.println("Diversos");
+		//}
 		
-		//String peca=(codigo==001)?"Parafuso":(codigo==002)?"Porca":(codigo==003)?"Prego":"Diversos";
-		//System.out.println(peca);
+		String peca=(codigo==001)?"Parafuso":(codigo==002)?"Porca":(codigo==003)?"Prego":"Diversos";
+		System.out.println(peca);
 
 	}
-
 }
