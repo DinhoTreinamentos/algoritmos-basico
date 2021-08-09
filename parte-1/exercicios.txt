@@ -33,7 +33,8 @@ Refaça novamente o exercício usando a estrutura for.
 
 Escrever um programa para calcular a média obtida por cada aluno de uma turma. Deve-se informar o número de alunos da turma, o nome de cada um e as 3 notas realizadas. Escrever o nome do aluno e a média obtida.
 
-Escrever um programa que, dada uma seqüência de valores inteiros e positivos, determine qual e o menor valor desta sequência e a média aritmética dos valores pares. O valor 0 (zero) indica o término dos dados de entrada (finalizador).
+Escrever um programa que, dada uma seqüência de valores inteiros e positivos, determine qual e o menor valor desta sequência
+e a média aritmética dos valores pares. O valor 0 (zero) indica o término dos dados de entrada (finalizador).
 
 Escrever um programa que leia o nome, sexo, altura e peso de um grupo de 250 pessoas e informe:
 
